@@ -11,7 +11,8 @@ import jakarta.persistence.GenerationType;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
-
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 public class Book {
